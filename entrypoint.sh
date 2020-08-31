@@ -1,4 +1,4 @@
-chmod +x entrypoint.sh
+RUN chmod +x entrypoint.sh
 
 #!/bin/sh -l
 
