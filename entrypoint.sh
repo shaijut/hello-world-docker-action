@@ -1,6 +1,6 @@
-RUN chmod +x entrypoint.sh
-
 #!/bin/sh -l
+
+RUN chmod +x entrypoint.sh
 
 echo "Hello $1 from docker action"
 time=$(date)
