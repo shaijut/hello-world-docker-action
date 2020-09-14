@@ -25,18 +25,18 @@ with:
 
 ## Example workflow file to put in your repo
 
-on: [push]
+## Location: yourRepoName/.github/workflows/main.yml 
 
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
-    name: A job to say hello
-    steps:
-    - name: Hello world action step
-      id: hello
-      uses: shaijut/hello-world-docker-action@v6
-      with:
+    jobs:
+      hello_world_job:
+       runs-on: ubuntu-latest
+       name: A job to say hello
+      steps:
+       - name: Hello world action step
+        id: hello
+        uses: shaijut/hello-world-docker-action@v6
+        with:
         who-to-greet: 'Shaijut test GH Action'
-    # Use the output from the `hello` step
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+       # Use the output from the `hello` step
+        - name: Get the output time
+         run: echo "The time was ${{ steps.hello.outputs.time }}"
