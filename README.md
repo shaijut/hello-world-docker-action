@@ -1,5 +1,5 @@
 
-Creating a Docker container action, Just for learning :)
+Creating a Docker container Github Action, Just for learning :)
 
 # Hello world docker action
 
