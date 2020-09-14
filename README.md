@@ -1,7 +1,7 @@
 
 Creating a Docker container Github Action, Just for learning :)
 
-# Hello world docker action
+# Hello world docker Github Action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
